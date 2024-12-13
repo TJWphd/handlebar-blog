@@ -2,6 +2,7 @@ const Sequelize = require('sequelize');
 require('dotenv').config();
 
 let sequelize;
+console.log(process.env.DB_NAME);
 
 if (process.env.DB_URL) {
   sequelize = new Sequelize(process.env.DB_URL);
@@ -12,7 +13,7 @@ if (process.env.DB_URL) {
     process.env.DB_PASSWORD,
     {
       host: 'localhost',
-      dialect: 'postgres'
+      dialect: 'postgres',
     }
   );
 }
