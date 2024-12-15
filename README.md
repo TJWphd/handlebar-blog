@@ -1,4 +1,4 @@
-# handlebar-blogx
+# handlebar-blog
 
 # Table of Contents
 
@@ -25,7 +25,7 @@ manual testing
 
 ## Acknowledgements
 
-Starter code from class repo (Week 14 Mini-Project): https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-07-2024-U-LOLC/-/tree/main/
+Starter code from class repo (Week 14 Mini-Project): https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-07-2024-U-LOLC/-/tree/main/14-MVC/01-Activities/28-Stu_Mini-Project?ref_type=heads
 
 Thanks to John Young and Zac Warner at edX/UC Berkeley Full-Stack Bootcamp for help in addition to instruction.
 
