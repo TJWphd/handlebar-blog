@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Post } = require('../../models');
+const { Post, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
@@ -16,6 +16,33 @@ router.post('/', withAuth, async (req, res) => {
 });
 
 // TODO: make PUT route for updating.
+// router.put('/comment/:id', withAuth, async (req, res) => {
+//   try {
+//     const comment = await Comment.create({
+//       ...req.body,
+//       user_id: req.session.user_id,
+//       post_id: req.params.id,
+//     });
+
+//     res.status(200).json(comment);
+//   } catch (err) {
+//     res.status(400).json(err);
+//   }
+// });
+
+router.post('/comment/:id', withAuth, async (req, res) => {
+  try {
+    const comment = await Comment.create({
+      ...req.body,
+      user_id: req.session.user_id,
+      post_id: req.params.id,
+    });
+
+    res.status(200).json(comment);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {

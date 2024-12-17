@@ -1,14 +1,17 @@
 [
   {
-    "title": "MVC Model",
-    "text": "MVC model is cool and uses handlebars."
+    "user_id": 1,
+    "title": "Learning from JavaScript",
+    "text": "Learning JavaScript has forced me to think about logic more broadly than I expected. I assumed that computer programming languages were very strict and that I would be using mathematical logic constantly. I was surprised to see how fluid JS really is and how many frameworks have been built and KEEP BEING BUILT that completely change what JS does and where it can go. I am really blown away."
   },
   {
-    "title": "The Ultimate Tech Quiz",
-    "text": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
+    "user_id": 1,
+    "title": "Routes: Satisfying.",
+    "text": "Dang, routes are really satisfying. When I started learning JS I couldn't believe how loose the variables were, but when I got into server routes they made me so happy because the logic seems more simple and and the results are really fun when the routes work and I can see what I did!"
   },
   {
-    "title": "Roll 'Em Up",
-    "text": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
+    "user_id": 1,
+    "title": "Mongo vs SQL",
+    "text": "As a 25-year user of Microsoft Excel I never thought I would get to be the one writing the rules of the database itself. It is really fun to write database schemas and rules. After learning both postgre SQL and Mongo, I'm even happier to be able to choose the looseness of the database structure itself. And what's even wilder is that I can use Mongoose to put back a little more structure, but only as much as I want."
   }
 ]
