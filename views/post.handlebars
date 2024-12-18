@@ -2,6 +2,12 @@
   <h2>{{title}}</h2>
   <p>{{text}}</p>
   <p>Created by {{user.userName}} on {{format_date date_created}}</p>
+
+  {{#each comments as |comment|}}
+    <div>
+      <p>{{comment.text}}</p>
+    </div>
+  {{/each}}
   <div><input id='commentBox' type='text' /></div>
   <div>
     <button id='subButt' class='btn btn-primary' value={{id}}>Comment</button>
