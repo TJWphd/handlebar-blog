@@ -11,7 +11,7 @@
 
 ## Description
 
-This tech blog uses the MVC model. Features include secure login, logout on idle, publically viewable posts.
+This tech blog uses the MVC model. Features include secure login, logout on idle, publically viewable posts. Logged in users can post and can also comment.
 
 ## Deployment
 
