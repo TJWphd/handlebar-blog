@@ -17,7 +17,7 @@ This tech blog uses the MVC model. Features include secure login, logout on idle
 
 Repo: https://github.com/TJWphd/handlebar-blog
 
-Deployment:
+Deployment: https://tjwphd.github.io/handlebar-blog
 
 ## Testing
 
